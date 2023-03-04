@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E7828B7C-824F-36DD-ACD4-6C3B5C14E95D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>LED.elf</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LED.elf.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LED</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.elf</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LED.elf.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LED</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.elf</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">LED.elf.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">LED</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.elf</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">LED.elf.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">LED</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.elf</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\LearningProjects\STM32\LED\Core\Inc;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Device\ST\STM32F1xx\Include;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include;E:\LearningProjects\STM32\LED\Core\myapp\hardware;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);DEBUG;USE_HAL_DRIVER;STM32F103xE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);DEBUG;USE_HAL_DRIVER;STM32F103xE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\LearningProjects\STM32\LED\Core\Inc;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Device\ST\STM32F1xx\Include;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include;E:\LearningProjects\STM32\LED\Core\myapp\hardware;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\LearningProjects\STM32\LED\Core\Inc;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Device\ST\STM32F1xx\Include;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include;E:\LearningProjects\STM32\LED\Core\myapp\hardware;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Building E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/LED.hex	Building E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/LED.bin</Message>
+      <Command>setlocal
+arm-none-eabi-objcopy -Oihex E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/Debug/LED.elf E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/LED.hex
+if %errorlevel% neq 0 goto :cmEnd
+arm-none-eabi-objcopy -Obinary E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/Debug/LED.elf E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/LED.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies></AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Wl,-gc-sections,--print-memory-usage,-Map=E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/LED.map -mcpu=cortex-m3 -mthumb -mthumb-interwork -T E:/LearningProjects/STM32/LED/STM32F103RCTX_FLASH.ld</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDataBaseFile>E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/Debug/LED.elf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\LearningProjects\STM32\LED\Core\Inc;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Device\ST\STM32F1xx\Include;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include;E:\LearningProjects\STM32\LED\Core\myapp\hardware;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);DEBUG;USE_HAL_DRIVER;STM32F103xE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);DEBUG;USE_HAL_DRIVER;STM32F103xE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\LearningProjects\STM32\LED\Core\Inc;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Device\ST\STM32F1xx\Include;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include;E:\LearningProjects\STM32\LED\Core\myapp\hardware;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\LearningProjects\STM32\LED\Core\Inc;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Device\ST\STM32F1xx\Include;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include;E:\LearningProjects\STM32\LED\Core\myapp\hardware;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Building E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/LED.hex	Building E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/LED.bin</Message>
+      <Command>setlocal
+arm-none-eabi-objcopy -Oihex E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/Release/LED.elf E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/LED.hex
+if %errorlevel% neq 0 goto :cmEnd
+arm-none-eabi-objcopy -Obinary E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/Release/LED.elf E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/LED.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies></AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Wl,-gc-sections,--print-memory-usage,-Map=E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/LED.map -mcpu=cortex-m3 -mthumb -mthumb-interwork -T E:/LearningProjects/STM32/LED/STM32F103RCTX_FLASH.ld</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDataBaseFile>E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/Release/LED.elf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\LearningProjects\STM32\LED\Core\Inc;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Device\ST\STM32F1xx\Include;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include;E:\LearningProjects\STM32\LED\Core\myapp\hardware;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);DEBUG;USE_HAL_DRIVER;STM32F103xE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);DEBUG;USE_HAL_DRIVER;STM32F103xE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\LearningProjects\STM32\LED\Core\Inc;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Device\ST\STM32F1xx\Include;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include;E:\LearningProjects\STM32\LED\Core\myapp\hardware;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\LearningProjects\STM32\LED\Core\Inc;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Device\ST\STM32F1xx\Include;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include;E:\LearningProjects\STM32\LED\Core\myapp\hardware;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Building E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/LED.hex	Building E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/LED.bin</Message>
+      <Command>setlocal
+arm-none-eabi-objcopy -Oihex E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/MinSizeRel/LED.elf E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/LED.hex
+if %errorlevel% neq 0 goto :cmEnd
+arm-none-eabi-objcopy -Obinary E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/MinSizeRel/LED.elf E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/LED.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies></AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Wl,-gc-sections,--print-memory-usage,-Map=E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/LED.map -mcpu=cortex-m3 -mthumb -mthumb-interwork -T E:/LearningProjects/STM32/LED/STM32F103RCTX_FLASH.ld</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDataBaseFile>E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/MinSizeRel/LED.elf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\LearningProjects\STM32\LED\Core\Inc;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Device\ST\STM32F1xx\Include;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include;E:\LearningProjects\STM32\LED\Core\myapp\hardware;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);DEBUG;USE_HAL_DRIVER;STM32F103xE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);DEBUG;USE_HAL_DRIVER;STM32F103xE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\LearningProjects\STM32\LED\Core\Inc;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Device\ST\STM32F1xx\Include;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include;E:\LearningProjects\STM32\LED\Core\myapp\hardware;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\LearningProjects\STM32\LED\Core\Inc;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy;E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Device\ST\STM32F1xx\Include;E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include;E:\LearningProjects\STM32\LED\Core\myapp\hardware;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Building E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/LED.hex	Building E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/LED.bin</Message>
+      <Command>setlocal
+arm-none-eabi-objcopy -Oihex E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/RelWithDebInfo/LED.elf E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/LED.hex
+if %errorlevel% neq 0 goto :cmEnd
+arm-none-eabi-objcopy -Obinary E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/RelWithDebInfo/LED.elf E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/LED.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies></AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Wl,-gc-sections,--print-memory-usage,-Map=E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/LED.map -mcpu=cortex-m3 -mthumb -mthumb-interwork -T E:/LearningProjects/STM32/LED/STM32F103RCTX_FLASH.ld</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDataBaseFile>E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/RelWithDebInfo/LED.elf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\LearningProjects\STM32\LED\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/LearningProjects/STM32/LED/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -SE:/LearningProjects/STM32/LED -BE:/LearningProjects/STM32/LED/cmake-build-debug-mingw --check-stamp-file E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeASMCompiler.cmake.in;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeASMInformation.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCCompiler.cmake.in;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCCompilerABI.c;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCInformation.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCXXCompiler.cmake.in;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineASMCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCXXCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeSystem.cmake.in;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeTestASMCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeTestCCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeTestCXXCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GNU-ASM.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GNU-FindBinUtils.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GNU.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\MSVC.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Platform\Generic.cmake;E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\CMakeFiles\3.24.2\CMakeASMCompiler.cmake;E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\CMakeFiles\3.24.2\CMakeCCompiler.cmake;E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/LearningProjects/STM32/LED/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -SE:/LearningProjects/STM32/LED -BE:/LearningProjects/STM32/LED/cmake-build-debug-mingw --check-stamp-file E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeASMCompiler.cmake.in;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeASMInformation.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCCompiler.cmake.in;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCCompilerABI.c;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCInformation.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCXXCompiler.cmake.in;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineASMCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCXXCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeSystem.cmake.in;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeTestASMCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeTestCCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeTestCXXCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GNU-ASM.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GNU-FindBinUtils.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GNU.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\MSVC.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Platform\Generic.cmake;E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\CMakeFiles\3.24.2\CMakeASMCompiler.cmake;E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\CMakeFiles\3.24.2\CMakeCCompiler.cmake;E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/LearningProjects/STM32/LED/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -SE:/LearningProjects/STM32/LED -BE:/LearningProjects/STM32/LED/cmake-build-debug-mingw --check-stamp-file E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeASMCompiler.cmake.in;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeASMInformation.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCCompiler.cmake.in;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCCompilerABI.c;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCInformation.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCXXCompiler.cmake.in;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineASMCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCXXCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeSystem.cmake.in;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeTestASMCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeTestCCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeTestCXXCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GNU-ASM.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GNU-FindBinUtils.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GNU.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\MSVC.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Platform\Generic.cmake;E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\CMakeFiles\3.24.2\CMakeASMCompiler.cmake;E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\CMakeFiles\3.24.2\CMakeCCompiler.cmake;E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/LearningProjects/STM32/LED/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -SE:/LearningProjects/STM32/LED -BE:/LearningProjects/STM32/LED/cmake-build-debug-mingw --check-stamp-file E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeASMCompiler.cmake.in;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeASMInformation.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCCompiler.cmake.in;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCCompilerABI.c;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCInformation.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCXXCompiler.cmake.in;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineASMCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCXXCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeSystem.cmake.in;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeTestASMCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeTestCCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeTestCXXCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GNU-ASM.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GNU-FindBinUtils.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\GNU.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\MSVC.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;D:\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\Platform\Generic.cmake;E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\CMakeFiles\3.24.2\CMakeASMCompiler.cmake;E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\CMakeFiles\3.24.2\CMakeCCompiler.cmake;E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Core\Inc\gpio.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Core\Inc\main.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Core\Inc\stm32f1xx_hal_conf.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Core\Inc\stm32f1xx_it.h" />
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Core\Src\gpio.c" />
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Core\Src\main.c" />
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Core\Src\stm32f1xx_hal_msp.c" />
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Core\Src\stm32f1xx_it.c" />
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Core\Src\syscalls.c" />
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Core\Src\sysmem.c" />
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Core\Src\system_stm32f1xx.c" />
+    <None Include="E:\LearningProjects\STM32\LED\Core\Startup\startup_stm32f103rctx.s" />
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Core\myapp\hardware\key.c" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Core\myapp\hardware\key.h" />
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Core\myapp\hardware\led.c" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Core\myapp\hardware\led.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h" />
+    <None Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Device\ST\STM32F1xx\License.md">
+    </None>
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include\cmsis_armcc.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include\cmsis_armclang.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include\cmsis_compiler.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include\cmsis_gcc.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include\cmsis_iccarm.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include\cmsis_version.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include\core_armv8mbl.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include\core_armv8mml.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include\core_cm0.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include\core_cm0plus.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include\core_cm1.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include\core_cm23.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include\core_cm3.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include\core_cm33.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include\core_cm4.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include\core_cm7.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include\core_sc000.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include\core_sc300.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include\mpu_armv7.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include\mpu_armv8.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\Include\tz_context.h" />
+    <None Include="E:\LearningProjects\STM32\LED\Drivers\CMSIS\LICENSE.txt">
+    </None>
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_bus.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_cortex.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_dma.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_exti.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_gpio.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_pwr.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_rcc.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_system.h" />
+    <ClInclude Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_utils.h" />
+    <None Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\License.md">
+    </None>
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c" />
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c" />
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c" />
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c" />
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c" />
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c" />
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c" />
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c" />
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c" />
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c" />
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c" />
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c" />
+    <ClCompile Include="E:\LearningProjects\STM32\LED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c" />
+    <None Include="E:\LearningProjects\STM32\LED\STM32F103RCTX_FLASH.ld">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\LearningProjects\STM32\LED\cmake-build-debug-mingw\ZERO_CHECK.vcxproj">
+      <Project>{95EA4D65-A76A-3B1D-8690-EF2CA2624515}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

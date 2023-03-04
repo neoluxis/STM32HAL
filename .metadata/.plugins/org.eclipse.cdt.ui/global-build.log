@@ -1,0 +1,104 @@
+22:25:44 **** Incremental Build of configuration Debug for project LED ****
+make -j12 all 
+arm-none-eabi-size   LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28100	    488	   1600	  30188	   75ec	LED.elf
+Finished building: default.size.stdout
+ 
+22:27:15 **** Incremental Build of configuration Debug for project LED ****
+make -j12 all 
+arm-none-eabi-size   LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28100	    488	   1600	  30188	   75ec	LED.elf
+Finished building: default.size.stdout
+ 
+22:31:17 **** Incremental Build of configuration Debug for project LED ****
+make -j12 all 
+arm-none-eabi-size   LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28100	    488	   1600	  30188	   75ec	LED.elf
+Finished building: default.size.stdout
+ 
+22:34:51 **** Incremental Build of configuration Debug for project LED ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/myapp/hardware -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/myapp/hardware -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc -o "LED.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\LearningProjects\STM32\LED\STM32F103RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LED.elf
+ 
+arm-none-eabi-size   LED.elf 
+arm-none-eabi-objdump -h -S  LED.elf  > "LED.list"
+arm-none-eabi-objcopy  -O ihex  LED.elf  "LED.hex"
+   text	   data	    bss	    dec	    hex	filename
+  28076	    488	   1600	  30164	   75d4	LED.elf
+arm-none-eabi-objcopy  -O binary  LED.elf  "LED.bin"
+Finished building: default.size.stdout
+ 
+Finished building: LED.list
+ 
+Finished building: LED.hex
+Finished building: LED.bin
+ 
+ 
+22:35:12 **** Incremental Build of configuration Debug for project LED ****
+make -j12 all 
+arm-none-eabi-size   LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28076	    488	   1600	  30164	   75d4	LED.elf
+Finished building: default.size.stdout
+ 
+22:37:04 **** Incremental Build of configuration Debug for project LED ****
+make -j12 all 
+arm-none-eabi-size   LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28076	    488	   1600	  30164	   75d4	LED.elf
+Finished building: default.size.stdout
+ 
+22:38:16 **** Incremental Build of configuration Debug for project LED ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/myapp/hardware -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc -o "LED.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\LearningProjects\STM32\LED\STM32F103RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LED.elf
+ 
+arm-none-eabi-size   LED.elf 
+arm-none-eabi-objdump -h -S  LED.elf  > "LED.list"
+arm-none-eabi-objcopy  -O ihex  LED.elf  "LED.hex"
+   text	   data	    bss	    dec	    hex	filename
+  28100	    488	   1600	  30188	   75ec	LED.elf
+arm-none-eabi-objcopy  -O binary  LED.elf  "LED.bin"
+Finished building: default.size.stdout
+ 
+Finished building: LED.hex
+Finished building: LED.bin
+ 
+ 
+Finished building: LED.list
+ 
+23:21:04 **** Incremental Build of configuration Debug for project LED ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/myapp/hardware/key.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/myapp/hardware -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/myapp/hardware/key.d" -MT"Core/myapp/hardware/key.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/myapp/hardware/key.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/myapp/hardware -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LED.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\LearningProjects\STM32\LED\STM32F103RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LED.elf
+ 
+arm-none-eabi-size   LED.elf 
+arm-none-eabi-objdump -h -S  LED.elf  > "LED.list"
+arm-none-eabi-objcopy  -O ihex  LED.elf  "LED.hex"
+   text	   data	    bss	    dec	    hex	filename
+  28028	    488	   1592	  30108	   759c	LED.elf
+arm-none-eabi-objcopy  -O binary  LED.elf  "LED.bin"
+Finished building: default.size.stdout
+ 
+Finished building: LED.hex
+Finished building: LED.bin
+Finished building: LED.list
+ 
+ 
+ 
+23:22:45 **** Incremental Build of configuration Debug for project LED ****
+make -j12 all 
+arm-none-eabi-size   LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28028	    488	   1592	  30108	   759c	LED.elf
+Finished building: default.size.stdout
+ 

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="将资源“HAL_LED/Core/Hardware”重命名为“myapp”" description="重命名资源“Hardware”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Hardware" name="myapp" stamp="1674981139417" updateReferences="true"/>&#x0A;<refactoring comment="将资源“HAL_LED/Core/myapp/LED”重命名为“hardware”" description="重命名资源“LED”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/myapp/LED" name="hardware" stamp="1674981150377" updateReferences="true"/>
+</session>
