@@ -6331,3 +6331,57 @@ javax.net.ssl.SSLException: Unsupported or unrecognized SSL message
 2023-03-04 16:28:58,508 [ERROR] ConfigurationRetriever:140 - IOException on connection: Read timed out
 2023-03-04 16:28:59,896 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
 2023-03-04 16:29:01,299 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2023-03-19 11:47:04,845 [INFO] Activator:179 - 
+
+
+2023-03-19 11:47:04,867 [INFO] Activator:180 - !SESSION log4j initialized
+2023-03-19 11:47:25,362 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Warning: NLS unused message: TrustPreferencePage_idColumn in: org.eclipse.equinox.internal.p2.ui.sdk.messages
+2023-03-19 11:47:25,385 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Warning: NLS unused message: TrustPreferencePage_userColumn in: org.eclipse.equinox.internal.p2.ui.sdk.messages
+2023-03-19 11:47:35,967 [ERROR] ConfigurationRetriever:140 - IOException on connection: Connection reset
+2023-03-19 11:47:36,014 [ERROR] ConfigurationRetriever:140 - IOException on connection: Software caused connection abort: recv failed
+2023-03-19 11:47:36,022 [ERROR] ConfigurationRetriever:140 - IOException on connection: Software caused connection abort: recv failed
+2023-03-19 11:49:18,407 [ERROR] ConfigurationRetriever:140 - IOException on connection: Software caused connection abort: recv failed
+2023-03-19 11:49:18,414 [ERROR] ConfigurationRetriever:140 - IOException on connection: Software caused connection abort: recv failed
+2023-03-19 11:49:18,421 [ERROR] ConfigurationRetriever:140 - IOException on connection: Software caused connection abort: recv failed
+2023-03-20 19:35:50,511 [INFO] Activator:179 - 
+
+
+2023-03-20 19:35:50,541 [INFO] Activator:180 - !SESSION log4j initialized
+2023-03-20 19:36:55,336 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2023-03-20 19:36:56,731 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2023-03-20 19:36:57,339 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2023-03-20 19:36:59,389 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2023-03-20 19:37:00,528 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2023-03-20 19:37:01,475 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2023-03-20 19:37:21,605 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Warning: NLS unused message: TrustPreferencePage_idColumn in: org.eclipse.equinox.internal.p2.ui.sdk.messages
+2023-03-20 19:37:21,655 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Warning: NLS unused message: TrustPreferencePage_userColumn in: org.eclipse.equinox.internal.p2.ui.sdk.messages
+2023-03-20 19:38:20,933 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2023-03-20 19:38:21,653 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2023-03-20 19:38:22,500 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2023-03-20 19:39:34,986 [ERROR] ConfigurationRetriever:140 - IOException on connection: Read timed out
+2023-03-20 19:39:37,013 [ERROR] ConfigurationRetriever:140 - IOException on connection: Read timed out
+2023-03-20 19:39:39,042 [ERROR] ConfigurationRetriever:140 - IOException on connection: Read timed out
+2023-03-20 21:57:11,710 [INFO] Activator:179 - 
+
+
+2023-03-20 21:57:11,729 [INFO] Activator:180 - !SESSION log4j initialized
+2023-03-20 21:57:38,014 [ERROR] ConfigurationRetriever:140 - IOException on connection: Read timed out
+2023-03-20 21:57:39,386 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2023-03-20 21:57:39,817 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Warning: NLS unused message: TrustPreferencePage_idColumn in: org.eclipse.equinox.internal.p2.ui.sdk.messages
+2023-03-20 21:57:39,845 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Warning: NLS unused message: TrustPreferencePage_userColumn in: org.eclipse.equinox.internal.p2.ui.sdk.messages
+2023-03-20 21:57:40,623 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2023-03-20 21:58:03,173 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2023-03-20 21:58:04,490 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2023-03-20 21:58:05,773 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2023-03-20 21:59:35,586 [INFO] Activator:179 - 
+
+
+2023-03-20 21:59:35,590 [INFO] Activator:180 - !SESSION log4j initialized
+2023-03-20 21:59:52,855 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2023-03-20 21:59:52,886 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Warning: NLS unused message: TrustPreferencePage_idColumn in: org.eclipse.equinox.internal.p2.ui.sdk.messages
+2023-03-20 21:59:52,923 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Warning: NLS unused message: TrustPreferencePage_userColumn in: org.eclipse.equinox.internal.p2.ui.sdk.messages
+2023-03-20 21:59:54,187 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2023-03-20 21:59:55,471 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2023-03-20 22:19:29,363 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2023-03-20 22:19:30,788 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2023-03-20 22:19:32,190 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
