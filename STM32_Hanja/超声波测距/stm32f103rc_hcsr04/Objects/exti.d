@@ -1,0 +1,14 @@
+.\objects\exti.o: HARDWARE\exti.c
+.\objects\exti.o: HARDWARE\exti.h
+.\objects\exti.o: .\SYSTEM\sys.h
+.\objects\exti.o: D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h
+.\objects\exti.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h
+.\objects\exti.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\exti.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h
+.\objects\exti.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h
+.\objects\exti.o: D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\system_stm32f10x.h
+.\objects\exti.o: HARDWARE\led.h
+.\objects\exti.o: HARDWARE\key.h
+.\objects\exti.o: .\SYSTEM\delay.h
+.\objects\exti.o: .\SYSTEM\usart.h
+.\objects\exti.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

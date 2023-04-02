@@ -1,0 +1,389 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Neolux Lee, Neoluxso, LIC=PE7DL-06TBT-EVG1R-KEKA0-FE8B8-V5HFT
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+E:\Administrator\OneDrive - likangfeng\Programming\STM32_Hanja\超声波测距\stm32f103rc_hcsr04\test.uvprojx
+Project File Date:  12/29/2022
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling core_cm3.c...
+compiling exti.c...
+HARDWARE\key.h(28): error:  #20: identifier "GPIOMode_TypeDef" is undefined
+      GPIOMode_TypeDef    BUTTON_MODE;
+HARDWARE\exti.c(12): error:  #20: identifier "GPIO_InitTypeDef" is undefined
+        GPIO_InitTypeDef GPIO_InitStructure;
+HARDWARE\exti.c(13): error:  #20: identifier "EXTI_InitTypeDef" is undefined
+        EXTI_InitTypeDef EXTI_InitStructure;
+HARDWARE\exti.c(14): error:  #20: identifier "NVIC_InitTypeDef" is undefined
+        NVIC_InitTypeDef NVIC_InitStructure;
+HARDWARE\exti.c(17): warning:  #223-D: function "GPIO_PinRemapConfig" declared implicitly
+        GPIO_PinRemapConfig(GPIO_Remap_SWJ_JTAGDisable , ENABLE);       //关闭jtag
+HARDWARE\exti.c(17): error:  #20: identifier "GPIO_Remap_SWJ_JTAGDisable" is undefined
+        GPIO_PinRemapConfig(GPIO_Remap_SWJ_JTAGDisable , ENABLE);       //关闭jtag
+HARDWARE\exti.c(19): warning:  #223-D: function "RCC_APB2PeriphClockCmd" declared implicitly
+        RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA|RCC_APB2Periph_AFIO,ENABLE);
+HARDWARE\exti.c(19): error:  #20: identifier "RCC_APB2Periph_GPIOA" is undefined
+        RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA|RCC_APB2Periph_AFIO,ENABLE);
+HARDWARE\exti.c(19): error:  #20: identifier "RCC_APB2Periph_AFIO" is undefined
+        RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA|RCC_APB2Periph_AFIO,ENABLE);
+HARDWARE\exti.c(22): error:  #20: identifier "GPIO_Pin_13" is undefined
+        GPIO_InitStructure.GPIO_Pin  = GPIO_Pin_13|GPIO_Pin_15;
+HARDWARE\exti.c(22): error:  #20: identifier "GPIO_Pin_15" is undefined
+        GPIO_InitStructure.GPIO_Pin  = GPIO_Pin_13|GPIO_Pin_15;
+HARDWARE\exti.c(23): error:  #20: identifier "GPIO_Mode_IPU" is undefined
+        GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;
+HARDWARE\exti.c(24): warning:  #223-D: function "GPIO_Init" declared implicitly
+        GPIO_Init(GPIOA, &GPIO_InitStructure);
+HARDWARE\exti.c(26): error:  #20: identifier "GPIO_Pin_0" is undefined
+        GPIO_InitStructure.GPIO_Pin  = GPIO_Pin_0;
+HARDWARE\exti.c(27): error:  #20: identifier "GPIO_Mode_IPD" is undefined
+        GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPD; 
+HARDWARE\exti.c(31): warning:  #223-D: function "GPIO_EXTILineConfig" declared implicitly
+        GPIO_EXTILineConfig(GPIO_PortSourceGPIOA,GPIO_PinSource13);
+HARDWARE\exti.c(31): error:  #20: identifier "GPIO_PortSourceGPIOA" is undefined
+        GPIO_EXTILineConfig(GPIO_PortSourceGPIOA,GPIO_PinSource13);
+HARDWARE\exti.c(31): error:  #20: identifier "GPIO_PinSource13" is undefined
+        GPIO_EXTILineConfig(GPIO_PortSourceGPIOA,GPIO_PinSource13);
+HARDWARE\exti.c(33): error:  #20: identifier "EXTI_Line13" is undefined
+        EXTI_InitStructure.EXTI_Line=EXTI_Line13;
+HARDWARE\exti.c(34): error:  #20: identifier "EXTI_Mode_Interrupt" is undefined
+        EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;     
+HARDWARE\exti.c(35): error:  #20: identifier "EXTI_Trigger_Falling" is undefined
+        EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Falling;
+HARDWARE\exti.c(37): warning:  #223-D: function "EXTI_Init" declared implicitly
+        EXTI_Init(&EXTI_InitStructure);
+HARDWARE\exti.c(40): error:  #20: identifier "GPIO_PinSource15" is undefined
+        GPIO_EXTILineConfig(GPIO_PortSourceGPIOA,GPIO_PinSource15);
+HARDWARE\exti.c(42): error:  #20: identifier "EXTI_Line15" is undefined
+        EXTI_InitStructure.EXTI_Line=EXTI_Line15;
+HARDWARE\exti.c(49): error:  #20: identifier "GPIO_PinSource0" is undefined
+        GPIO_EXTILineConfig(GPIO_PortSourceGPIOA,GPIO_PinSource0);
+HARDWARE\exti.c(51): error:  #20: identifier "EXTI_Line0" is undefined
+        EXTI_InitStructure.EXTI_Line=EXTI_Line0;
+HARDWARE\exti.c(53): error:  #20: identifier "EXTI_Trigger_Rising" is undefined
+        EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Rising;
+HARDWARE\exti.c(62): warning:  #223-D: function "NVIC_Init" declared implicitly
+        NVIC_Init(&NVIC_InitStructure); 
+HARDWARE\exti.c(75): warning:  #223-D: function "EXTI_GetITStatus" declared implicitly
+        if(EXTI_GetITStatus(EXTI_Line0) != RESET)         //检查指定的EXTI0线路触发请求发生与否
+HARDWARE\exti.c(75): error:  #20: identifier "EXTI_Line0" is undefined
+        if(EXTI_GetITStatus(EXTI_Line0) != RESET)         //检查指定的EXTI0线路触发请求发生与否
+HARDWARE\exti.c(80): warning:  #223-D: function "EXTI_ClearITPendingBit" declared implicitly
+        EXTI_ClearITPendingBit(EXTI_Line0);  //清除EXTI0线路挂起位
+HARDWARE\exti.c(80): error:  #20: identifier "EXTI_Line0" is undefined
+        EXTI_ClearITPendingBit(EXTI_Line0);  //清除EXTI0线路挂起位
+HARDWARE\exti.c(87): warning:  #223-D: function "EXTI_GetITStatus" declared implicitly
+      if(EXTI_GetITStatus(EXTI_Line13) != RESET)
+HARDWARE\exti.c(87): error:  #20: identifier "EXTI_Line13" is undefined
+      if(EXTI_GetITStatus(EXTI_Line13) != RESET)
+HARDWARE\exti.c(92): error:  #20: identifier "EXTI_Line15" is undefined
+       else if (EXTI_GetITStatus(EXTI_Line15) != RESET)
+HARDWARE\exti.c(96): warning:  #223-D: function "EXTI_ClearITPendingBit" declared implicitly
+         EXTI_ClearITPendingBit(EXTI_Line13);  //清除EXTI13线路挂起位
+HARDWARE\exti.c(96): error:  #20: identifier "EXTI_Line13" is undefined
+         EXTI_ClearITPendingBit(EXTI_Line13);  //清除EXTI13线路挂起位
+HARDWARE\exti.c(97): error:  #20: identifier "EXTI_Line15" is undefined
+         EXTI_ClearITPendingBit(EXTI_Line15);  //清除EXTI15线路挂起位
+HARDWARE\exti.c: 10 warnings, 28 errors
+compiling key.c...
+HARDWARE\key.h(28): error:  #20: identifier "GPIOMode_TypeDef" is undefined
+      GPIOMode_TypeDef    BUTTON_MODE;
+HARDWARE\key.c(20): error:  #20: identifier "GPIO_InitTypeDef" is undefined
+        GPIO_InitTypeDef GPIO_InitStructure;
+HARDWARE\key.c(22): warning:  #223-D: function "RCC_APB2PeriphClockCmd" declared implicitly
+        RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA,ENABLE);
+HARDWARE\key.c(22): error:  #20: identifier "RCC_APB2Periph_GPIOA" is undefined
+        RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA,ENABLE);
+HARDWARE\key.c(23): error:  #20: identifier "GPIO_Pin_13" is undefined
+        GPIO_InitStructure.GPIO_Pin  = GPIO_Pin_13|GPIO_Pin_15;
+HARDWARE\key.c(23): error:  #20: identifier "GPIO_Pin_15" is undefined
+        GPIO_InitStructure.GPIO_Pin  = GPIO_Pin_13|GPIO_Pin_15;
+HARDWARE\key.c(24): error:  #20: identifier "GPIO_Mode_IPU" is undefined
+        GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;
+HARDWARE\key.c(26): warning:  #223-D: function "GPIO_Init" declared implicitly
+        GPIO_Init(GPIOA, &GPIO_InitStructure);
+HARDWARE\key.c(28): error:  #20: identifier "GPIO_Pin_0" is undefined
+        GPIO_InitStructure.GPIO_Pin  = GPIO_Pin_0;
+HARDWARE\key.c(29): error:  #20: identifier "GPIO_Mode_IPD" is undefined
+        GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPD; 
+HARDWARE\key.c(39): warning:  #223-D: function "GPIO_PinRemapConfig" declared implicitly
+        GPIO_PinRemapConfig(GPIO_Remap_SWJ_Disable, ENABLE);
+HARDWARE\key.c(39): error:  #20: identifier "GPIO_Remap_SWJ_Disable" is undefined
+        GPIO_PinRemapConfig(GPIO_Remap_SWJ_Disable, ENABLE);
+HARDWARE\key.c(47): error:  #20: identifier "GPIO_Remap_SWJ_JTAGDisable" is undefined
+                         GPIO_PinRemapConfig(GPIO_Remap_SWJ_JTAGDisable, ENABLE);
+HARDWARE\key.c(53): error:  #20: identifier "GPIO_Remap_SWJ_JTAGDisable" is undefined
+                GPIO_PinRemapConfig(GPIO_Remap_SWJ_JTAGDisable, ENABLE);
+HARDWARE\key.c(59): error:  #20: identifier "GPIO_Remap_SWJ_JTAGDisable" is undefined
+                GPIO_PinRemapConfig(GPIO_Remap_SWJ_JTAGDisable, ENABLE);
+HARDWARE\key.c(64): error:  #20: identifier "GPIO_Remap_SWJ_JTAGDisable" is undefined
+        GPIO_PinRemapConfig(GPIO_Remap_SWJ_JTAGDisable, ENABLE);
+HARDWARE\key.c: 3 warnings, 13 errors
+compiling led.c...
+HARDWARE\led.c(22): error:  #20: identifier "GPIO_InitTypeDef" is undefined
+   GPIO_InitTypeDef  GPIO_InitStructure;
+HARDWARE\led.c(24): warning:  #223-D: function "RCC_APB2PeriphClockCmd" declared implicitly
+   RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);         //使能PA端口时钟
+HARDWARE\led.c(24): error:  #20: identifier "RCC_APB2Periph_GPIOA" is undefined
+   RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);         //使能PA端口时钟
+HARDWARE\led.c(26): error:  #20: identifier "GPIO_Pin_8" is undefined
+   GPIO_InitStructure.GPIO_Pin = GPIO_Pin_8;                             //LED0-->PA.8 端口配置
+HARDWARE\led.c(27): error:  #20: identifier "GPIO_Mode_Out_PP" is undefined
+   GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;              //推挽输出
+HARDWARE\led.c(28): error:  #20: identifier "GPIO_Speed_50MHz" is undefined
+   GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+HARDWARE\led.c(29): warning:  #223-D: function "GPIO_Init" declared implicitly
+   GPIO_Init(GPIOA, &GPIO_InitStructure);
+HARDWARE\led.c(30): warning:  #223-D: function "GPIO_SetBits" declared implicitly
+   GPIO_SetBits(GPIOA,GPIO_Pin_8);                                               //PA.8 输出高
+HARDWARE\led.c(33): error:  #20: identifier "RCC_APB2Periph_GPIOD" is undefined
+   RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE);   //使能PD端口时钟
+HARDWARE\led.c(35): error:  #20: identifier "GPIO_Pin_2" is undefined
+   GPIO_InitStructure.GPIO_Pin = GPIO_Pin_2;                     //LED1-->PD.2 端口配置
+HARDWARE\led.c: 3 warnings, 7 errors
+compiling pwm.c...
+HARDWARE\pwm.c(22): error:  #20: identifier "GPIO_InitTypeDef" is undefined
+        GPIO_InitTypeDef GPIO_InitStructure;
+HARDWARE\pwm.c(23): error:  #20: identifier "TIM_TimeBaseInitTypeDef" is undefined
+        TIM_TimeBaseInitTypeDef  TIM_TimeBaseStructure;
+HARDWARE\pwm.c(24): error:  #20: identifier "TIM_OCInitTypeDef" is undefined
+        TIM_OCInitTypeDef  TIM_OCInitStructure;
+HARDWARE\pwm.c(26): warning:  #223-D: function "RCC_APB1PeriphClockCmd" declared implicitly
+        RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM3, ENABLE);
+HARDWARE\pwm.c(26): error:  #20: identifier "RCC_APB1Periph_TIM3" is undefined
+        RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM3, ENABLE);
+HARDWARE\pwm.c(27): warning:  #223-D: function "RCC_APB2PeriphClockCmd" declared implicitly
+        RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA  | RCC_APB2Periph_AFIO, ENABLE);  //使能GPIO外设和AFIO复用功能模块时钟使能
+HARDWARE\pwm.c(27): error:  #20: identifier "RCC_APB2Periph_GPIOA" is undefined
+        RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA  | RCC_APB2Periph_AFIO, ENABLE);  //使能GPIO外设和AFIO复用功能模块时钟使能
+HARDWARE\pwm.c(27): error:  #20: identifier "RCC_APB2Periph_AFIO" is undefined
+        RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA  | RCC_APB2Periph_AFIO, ENABLE);  //使能GPIO外设和AFIO复用功能模块时钟使能
+HARDWARE\pwm.c(30): error:  #20: identifier "GPIO_Pin_8" is undefined
+        GPIO_InitStructure.GPIO_Pin = GPIO_Pin_8;
+HARDWARE\pwm.c(31): error:  #20: identifier "GPIO_Mode_IN_FLOATING" is undefined
+        GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN_FLOATING;
+HARDWARE\pwm.c(32): warning:  #223-D: function "GPIO_Init" declared implicitly
+        GPIO_Init(GPIOA, &GPIO_InitStructure);
+HARDWARE\pwm.c(35): error:  #20: identifier "GPIO_Pin_7" is undefined
+        GPIO_InitStructure.GPIO_Pin = GPIO_Pin_7; //TIM_CH2
+HARDWARE\pwm.c(36): error:  #20: identifier "GPIO_Mode_AF_PP" is undefined
+        GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;  //复用推挽输出
+HARDWARE\pwm.c(37): error:  #20: identifier "GPIO_Speed_50MHz" is undefined
+        GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+HARDWARE\pwm.c(44): error:  #20: identifier "TIM_CounterMode_Up" is undefined
+        TIM_TimeBaseStructure.TIM_CounterMode = TIM_CounterMode_Up;  //TIM向上计数模式
+HARDWARE\pwm.c(45): warning:  #223-D: function "TIM_TimeBaseInit" declared implicitly
+        TIM_TimeBaseInit(TIM3, &TIM_TimeBaseStructure); //根据TIM_TimeBaseInitStruct中指定的参数初始化TIMx的时间基数单位
+HARDWARE\pwm.c(48): error:  #20: identifier "TIM_OCMode_PWM2" is undefined
+        TIM_OCInitStructure.TIM_OCMode = TIM_OCMode_PWM2; //选择定时器模式:TIM脉冲宽度调制模式2
+HARDWARE\pwm.c(49): error:  #20: identifier "TIM_OutputState_Enable" is undefined
+        TIM_OCInitStructure.TIM_OutputState = TIM_OutputState_Enable; //比较输出使能
+HARDWARE\pwm.c(51): error:  #20: identifier "TIM_OCPolarity_High" is undefined
+        TIM_OCInitStructure.TIM_OCPolarity = TIM_OCPolarity_High; //输出极性:TIM输出比较极性高
+HARDWARE\pwm.c(52): warning:  #223-D: function "TIM_OC2Init" declared implicitly
+        TIM_OC2Init(TIM3, &TIM_OCInitStructure);  //根据TIM_OCInitStruct中指定的参数初始化外设TIMx
+HARDWARE\pwm.c(53): warning:  #223-D: function "TIM_OC2PreloadConfig" declared implicitly
+        TIM_OC2PreloadConfig(TIM3, TIM_OCPreload_Enable);  //使能TIMx在CCR2上的预装载寄存器
+HARDWARE\pwm.c(53): error:  #20: identifier "TIM_OCPreload_Enable" is undefined
+        TIM_OC2PreloadConfig(TIM3, TIM_OCPreload_Enable);  //使能TIMx在CCR2上的预装载寄存器
+HARDWARE\pwm.c(55): warning:  #223-D: function "TIM_ARRPreloadConfig" declared implicitly
+        TIM_ARRPreloadConfig(TIM3, ENABLE); //使能TIMx在ARR上的预装载寄存器
+HARDWARE\pwm.c(58): warning:  #223-D: function "TIM_Cmd" declared implicitly
+        TIM_Cmd(TIM3, ENABLE);  //使能TIMx外设
+HARDWARE\pwm.c: 8 warnings, 16 errors
+compiling timer.c...
+HARDWARE\timer.c(24): error:  #20: identifier "TIM_TimeBaseInitTypeDef" is undefined
+      TIM_TimeBaseInitTypeDef  TIM_TimeBaseStructure;
+HARDWARE\timer.c(25): error:  #20: identifier "NVIC_InitTypeDef" is undefined
+        NVIC_InitTypeDef NVIC_InitStructure;
+HARDWARE\timer.c(27): warning:  #223-D: function "RCC_APB1PeriphClockCmd" declared implicitly
+        RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM3, ENABLE);
+HARDWARE\timer.c(27): error:  #20: identifier "RCC_APB1Periph_TIM3" is undefined
+        RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM3, ENABLE);
+HARDWARE\timer.c(32): error:  #20: identifier "TIM_CounterMode_Up" is undefined
+        TIM_TimeBaseStructure.TIM_CounterMode = TIM_CounterMode_Up;  //TIM向上计数模式
+HARDWARE\timer.c(33): warning:  #223-D: function "TIM_TimeBaseInit" declared implicitly
+        TIM_TimeBaseInit(TIM3, &TIM_TimeBaseStructure); //根据TIM_TimeBaseInitStruct中指定的参数初始化TIMx的时间基数单位
+HARDWARE\timer.c(36): warning:  #223-D: function "TIM_ITConfig" declared implicitly
+        TIM_ITConfig(  //使能或者失能指定的TIM中断
+HARDWARE\timer.c(38): error:  #20: identifier "TIM_IT_Update" is undefined
+                TIM_IT_Update  |  //TIM 中断源
+HARDWARE\timer.c(39): error:  #20: identifier "TIM_IT_Trigger" is undefined
+                TIM_IT_Trigger,   //TIM 触发中断源 
+HARDWARE\timer.c(47): warning:  #223-D: function "NVIC_Init" declared implicitly
+        NVIC_Init(&NVIC_InitStructure);  //根据NVIC_InitStruct中指定的参数初始化外设NVIC寄存器
+HARDWARE\timer.c(49): warning:  #223-D: function "TIM_Cmd" declared implicitly
+        TIM_Cmd(TIM3, ENABLE);  //使能TIMx外设
+HARDWARE\timer.c(55): warning:  #223-D: function "TIM_GetITStatus" declared implicitly
+        if (TIM_GetITStatus(TIM3, TIM_IT_Update) != RESET) //检查指定的TIM中断发生与否:TIM 中断源 
+HARDWARE\timer.c(55): error:  #20: identifier "TIM_IT_Update" is undefined
+        if (TIM_GetITStatus(TIM3, TIM_IT_Update) != RESET) //检查指定的TIM中断发生与否:TIM 中断源 
+HARDWARE\timer.c(57): warning:  #223-D: function "TIM_ClearITPendingBit" declared implicitly
+                TIM_ClearITPendingBit(TIM3, TIM_IT_Update  );  //清除TIMx的中断待处理位:TIM 中断源 
+HARDWARE\timer.c: 7 warnings, 7 errors
+compiling wdg.c...
+HARDWARE\wdg.c(16): warning:  #223-D: function "IWDG_WriteAccessCmd" declared implicitly
+        IWDG_WriteAccessCmd(IWDG_WriteAccess_Enable);  //使能对寄存器IWDG_PR和IWDG_RLR的写操作
+HARDWARE\wdg.c(16): error:  #20: identifier "IWDG_WriteAccess_Enable" is undefined
+        IWDG_WriteAccessCmd(IWDG_WriteAccess_Enable);  //使能对寄存器IWDG_PR和IWDG_RLR的写操作
+HARDWARE\wdg.c(18): warning:  #223-D: function "IWDG_SetPrescaler" declared implicitly
+        IWDG_SetPrescaler(prer);  //设置IWDG预分频值:设置IWDG预分频值为64
+HARDWARE\wdg.c(20): warning:  #223-D: function "IWDG_SetReload" declared implicitly
+        IWDG_SetReload(rlr);  //设置IWDG重装载值
+HARDWARE\wdg.c(22): warning:  #223-D: function "IWDG_ReloadCounter" declared implicitly
+        IWDG_ReloadCounter();  //按照IWDG重装载寄存器的值重装载IWDG计数器
+HARDWARE\wdg.c(24): warning:  #223-D: function "IWDG_Enable" declared implicitly
+        IWDG_Enable();  //使能IWDG
+HARDWARE\wdg.c(29): warning:  #223-D: function "IWDG_ReloadCounter" declared implicitly
+        IWDG_ReloadCounter();                                                                              
+HARDWARE\wdg.c(38): warning:  #223-D: function "RCC_APB1PeriphClockCmd" declared implicitly
+        RCC_APB1PeriphClockCmd(RCC_APB1Periph_WWDG, ENABLE);  //   WWDG时钟使能
+HARDWARE\wdg.c(38): error:  #20: identifier "RCC_APB1Periph_WWDG" is undefined
+        RCC_APB1PeriphClockCmd(RCC_APB1Periph_WWDG, ENABLE);  //   WWDG时钟使能
+HARDWARE\wdg.c(40): warning:  #223-D: function "WWDG_SetPrescaler" declared implicitly
+        WWDG_SetPrescaler(fprer);////设置IWDG预分频值
+HARDWARE\wdg.c(42): warning:  #223-D: function "WWDG_SetWindowValue" declared implicitly
+        WWDG_SetWindowValue(wr);//设置窗口值
+HARDWARE\wdg.c(44): warning:  #223-D: function "WWDG_Enable" declared implicitly
+        WWDG_Enable(tr);         //使能看门狗 , 设置 counter .                  
+HARDWARE\wdg.c(46): warning:  #223-D: function "WWDG_ClearFlag" declared implicitly
+        WWDG_ClearFlag();
+HARDWARE\wdg.c(50): warning:  #223-D: function "WWDG_EnableIT" declared implicitly
+        WWDG_EnableIT(); //开启窗口看门狗中断
+HARDWARE\wdg.c(55): warning:  #223-D: function "WWDG_Enable" declared implicitly
+      WWDG_Enable(cnt);  
+HARDWARE\wdg.c(60): error:  #20: identifier "NVIC_InitTypeDef" is undefined
+        NVIC_InitTypeDef NVIC_InitStructure;
+HARDWARE\wdg.c(64): warning:  #223-D: function "NVIC_Init" declared implicitly
+        NVIC_Init(&NVIC_InitStructure);//NVIC初始化
+HARDWARE\wdg.c(70): warning:  #223-D: function "WWDG_SetCounter" declared implicitly
+        WWDG_SetCounter(0x7F);    //当禁掉此句后,窗口看门狗将产生复位
+HARDWARE\wdg.c(72): warning:  #223-D: function "WWDG_ClearFlag" declared implicitly
+        WWDG_ClearFlag();         //清除提前唤醒中断标志位
+HARDWARE\wdg.c: 16 warnings, 3 errors
+compiling delay.c...
+SYSTEM\delay.c(27): warning:  #223-D: function "SysTick_CLKSourceConfig" declared implicitly
+        SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK_Div8);   //选择外部时钟  HCLK/8
+SYSTEM\delay.c(27): error:  #20: identifier "SysTick_CLKSource_HCLK_Div8" is undefined
+        SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK_Div8);   //选择外部时钟  HCLK/8
+SYSTEM\delay.c: 1 warning, 1 error
+compiling sys.c...
+SYSTEM\sys.c(18): warning:  #223-D: function "NVIC_PriorityGroupConfig" declared implicitly
+      NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);   //设置NVIC中断分组2:2位抢占优先级，2位响应优先级
+SYSTEM\sys.c(18): error:  #20: identifier "NVIC_PriorityGroup_2" is undefined
+      NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);   //设置NVIC中断分组2:2位抢占优先级，2位响应优先级
+SYSTEM\sys.c: 1 warning, 1 error
+compiling usart.c...
+SYSTEM\usart.c(36): error:  #260-D: explicit type is missing ("int" assumed)
+  _sys_exit(int x) 
+SYSTEM\usart.c(76): error:  #20: identifier "GPIO_InitTypeDef" is undefined
+      GPIO_InitTypeDef GPIO_InitStructure;
+SYSTEM\usart.c(77): error:  #20: identifier "USART_InitTypeDef" is undefined
+        USART_InitTypeDef USART_InitStructure;
+SYSTEM\usart.c(78): error:  #20: identifier "NVIC_InitTypeDef" is undefined
+        NVIC_InitTypeDef NVIC_InitStructure;
+SYSTEM\usart.c(80): warning:  #223-D: function "RCC_APB2PeriphClockCmd" declared implicitly
+        RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1|RCC_APB2Periph_GPIOA|RCC_APB2Periph_AFIO, ENABLE);
+SYSTEM\usart.c(80): error:  #20: identifier "RCC_APB2Periph_USART1" is undefined
+        RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1|RCC_APB2Periph_GPIOA|RCC_APB2Periph_AFIO, ENABLE);
+SYSTEM\usart.c(80): error:  #20: identifier "RCC_APB2Periph_GPIOA" is undefined
+        RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1|RCC_APB2Periph_GPIOA|RCC_APB2Periph_AFIO, ENABLE);
+SYSTEM\usart.c(80): error:  #20: identifier "RCC_APB2Periph_AFIO" is undefined
+        RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1|RCC_APB2Periph_GPIOA|RCC_APB2Periph_AFIO, ENABLE);
+SYSTEM\usart.c(82): error:  #20: identifier "GPIO_Pin_9" is undefined
+      GPIO_InitStructure.GPIO_Pin = GPIO_Pin_9;
+SYSTEM\usart.c(83): error:  #20: identifier "GPIO_Speed_50MHz" is undefined
+      GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+SYSTEM\usart.c(84): error:  #20: identifier "GPIO_Mode_AF_PP" is undefined
+      GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
+SYSTEM\usart.c(85): warning:  #223-D: function "GPIO_Init" declared implicitly
+      GPIO_Init(GPIOA, &GPIO_InitStructure);
+SYSTEM\usart.c(88): error:  #20: identifier "GPIO_Pin_10" is undefined
+      GPIO_InitStructure.GPIO_Pin = GPIO_Pin_10;
+SYSTEM\usart.c(89): error:  #20: identifier "GPIO_Mode_IN_FLOATING" is undefined
+      GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN_FLOATING;
+SYSTEM\usart.c(99): warning:  #223-D: function "NVIC_Init" declared implicitly
+        NVIC_Init(&NVIC_InitStructure); //根据NVIC_InitStruct中指定的参数初始化外设NVIC寄存器USART1
+SYSTEM\usart.c(104): error:  #20: identifier "USART_WordLength_8b" is undefined
+        USART_InitStructure.USART_WordLength = USART_WordLength_8b;
+SYSTEM\usart.c(105): error:  #20: identifier "USART_StopBits_1" is undefined
+        USART_InitStructure.USART_StopBits = USART_StopBits_1;
+SYSTEM\usart.c(106): error:  #20: identifier "USART_Parity_No" is undefined
+        USART_InitStructure.USART_Parity = USART_Parity_No;
+SYSTEM\usart.c(107): error:  #20: identifier "USART_HardwareFlowControl_None" is undefined
+        USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
+SYSTEM\usart.c(108): error:  #20: identifier "USART_Mode_Rx" is undefined
+        USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
+SYSTEM\usart.c(108): error:  #20: identifier "USART_Mode_Tx" is undefined
+        USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
+SYSTEM\usart.c(110): warning:  #223-D: function "USART_Init" declared implicitly
+      USART_Init(USART1, &USART_InitStructure);
+SYSTEM\usart.c(113): warning:  #223-D: function "USART_ITConfig" declared implicitly
+      USART_ITConfig(USART1, USART_IT_RXNE, ENABLE);//开启中断
+SYSTEM\usart.c(113): error:  #20: identifier "USART_IT_RXNE" is undefined
+      USART_ITConfig(USART1, USART_IT_RXNE, ENABLE);//开启中断
+SYSTEM\usart.c(115): warning:  #223-D: function "USART_Cmd" declared implicitly
+      USART_Cmd(USART1, ENABLE);                    //使能串口 
+SYSTEM\usart.c(122): warning:  #223-D: function "USART_GetITStatus" declared implicitly
+        if(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET)  //接收中断(接收到的数据必须是0x0d 0x0a结尾)
+SYSTEM\usart.c(122): error:  #20: identifier "USART_IT_RXNE" is undefined
+        if(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET)  //接收中断(接收到的数据必须是0x0d 0x0a结尾)
+SYSTEM\usart.c(124): warning:  #223-D: function "USART_ReceiveData" declared implicitly
+                Res =USART_ReceiveData(USART1);//(USART1->DR);  //读取接收到的数据
+SYSTEM\usart.c: 8 warnings, 20 errors
+".\Objects\test.axf" - 96 Error(s), 57 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.1.0.5.pack
+                Keil::Device:Startup:1.0.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\Administrator\OneDrive - likangfeng\Programming\STM32_Hanja\超声波测距\stm32f103rc_hcsr04\RTE
+  E:\Administrator\OneDrive - likangfeng\Programming\STM32_Hanja\超声波测距\stm32f103rc_hcsr04\RTE\Device\STM32F103RC
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+
+   * Component: Keil::Device:Startup:1.0.0
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\ARM\startup_stm32f10x_hd.s
+      Source file:   Device\Source\system_stm32f10x.c
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+Target not created.
+</pre>
+</body>
+</html>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" ENABLED="true" CONFIG_NAME="Release" />
+      <configuration PROFILE_NAME="STM32_Debug" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="STM 32" />
+      <configuration PROFILE_NAME="STM32_Release" ENABLED="true" CONFIG_NAME="Release" TOOLCHAIN_NAME="STM 32" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="322775f0-26e8-4094-8dbc-50175fa1e74e" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_COER/core_cm3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_COER/core_cm3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_COER/startup_stm32f10x_md.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/ADC/adc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/ADC/adc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/DMP/dmpKey.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/DMP/dmpmap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/DMP/inv_mpu.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/DMP/inv_mpu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/DMP/inv_mpu_dmp_motion_driver.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/DMP/inv_mpu_dmp_motion_driver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/ENCODER/encoder.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/ENCODER/encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/EXTI/myexti.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/EXTI/myexti.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/IIC/IOI2C.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/IIC/IOI2C.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/KEY/key.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/KEY/key.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/LED/LED.C" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/LED/LED.H" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/MOTOR_PWM/pwm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/MOTOR_PWM/pwm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/MPU6050/MPU6050.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/MPU6050/mpu6050.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/USART1/usart1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/USART1/usart1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/USART3/usart3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/Mbot_HARDWARE/USART3/usart3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/MBOT.axf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/MBOT.axf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/MBOT.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/MBOT.build_log.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/MBOT.hex" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/MBOT.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/MBOT.htm" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/MBOT.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/MBOT.lnp" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/MBOT.lnp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/MBOT.sct" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/MBOT.sct" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/MBOT_MBOT.dep" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/MBOT_MBOT.dep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/adc.crf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/adc.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/adc.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/adc.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/adc.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/adc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/control.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/control.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/control.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/core_cm3.crf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/core_cm3.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/core_cm3.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/core_cm3.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/core_cm3.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/core_cm3.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/delay.crf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/delay.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/delay.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/delay.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/delay.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/delay.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/encoder.crf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/encoder.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/encoder.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/encoder.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/encoder.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/encoder.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/exti.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/exti.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/exti.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/inv_mpu.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/inv_mpu.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/inv_mpu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/inv_mpu_dmp_motion_driver.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/inv_mpu_dmp_motion_driver.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/inv_mpu_dmp_motion_driver.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/ioi2c.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/ioi2c.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/ioi2c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/key.crf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/key.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/key.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/key.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/key.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/key.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/led.crf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/led.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/led.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/led.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/led.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/led.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/mbot.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/mbot.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/mbot.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/mbotlinuxusart.crf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/mbotlinuxusart.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/mbotlinuxusart.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/mbotlinuxusart.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/mbotlinuxusart.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/mbotlinuxusart.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/misc.crf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/misc.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/misc.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/misc.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/misc.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/misc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/motor.crf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/motor.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/motor.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/motor.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/motor.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/motor.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/mpu6050.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/mpu6050.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/mpu6050.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/myexti.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/myexti.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/myexti.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/pid.crf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/pid.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/pid.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/pid.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/pid.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/pid.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/pwm.crf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/pwm.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/pwm.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/pwm.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/pwm.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/pwm.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/show.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/show.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/show.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/startup_stm32f10x_md.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/startup_stm32f10x_md.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/startup_stm32f10x_md.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/startup_stm32f10x_md.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_adc.crf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_adc.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_adc.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_adc.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_adc.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_adc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_exti.crf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_exti.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_exti.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_exti.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_exti.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_exti.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_gpio.crf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_gpio.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_gpio.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_gpio.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_gpio.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_gpio.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_i2c.crf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_i2c.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_i2c.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_i2c.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_i2c.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_i2c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_it.crf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_it.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_it.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_it.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_it.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_it.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_rcc.crf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_rcc.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_rcc.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_rcc.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_rcc.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_rcc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_tim.crf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_tim.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_tim.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_tim.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_tim.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_tim.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_usart.crf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_usart.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_usart.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_usart.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_usart.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/stm32f10x_usart.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/sys.crf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/sys.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/sys.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/sys.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/sys.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/sys.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/system_stm32f10x.crf" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/system_stm32f10x.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/system_stm32f10x.d" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/system_stm32f10x.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/system_stm32f10x.o" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/OBJ/system_stm32f10x.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/usart1.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/usart1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/usart1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/usart3.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/usart3.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/OBJ/usart3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/SYSTEM/delay/delay.c" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/SYSTEM/delay/delay.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/SYSTEM/delay/delay.h" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/SYSTEM/delay/delay.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/SYSTEM/sys/sys.c" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/SYSTEM/sys/sys.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/SYSTEM/sys/sys.h" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/SYSTEM/sys/sys.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/USER/JLinkSettings.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/USER/MBOT.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/USER/MBOT.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/USER/MBOT.uvguix.zhaokexue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/USER/MBOT.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/USER/MBOT.uvoptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/USER/MBOT.uvprojx" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/USER/MBOT.uvprojx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/USER/startup_stm32f10x_md.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/USER/stm32f10x_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/USER/stm32f10x_it.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/mbot/CONTROL/control.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/mbot/CONTROL/control.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/mbot/PID/pid.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/mbot/PID/pid.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/mbot/motor/motor.c" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/mbot/motor/motor.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/mbot/motor/motor.h" beforeDir="false" afterPath="$PROJECT_DIR$/外部中断法/mbot/motor/motor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/mbot/show/show.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/mbot/show/show.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/mbot/usart/mbotLinuxUsart.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/外部中断法/mbot/usart/mbotLinuxUsart.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_COER/core_cm3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_COER/core_cm3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_COER/startup_stm32f10x_md.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/ADC/adc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/ADC/adc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/DMP/dmpKey.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/DMP/dmpmap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/DMP/inv_mpu.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/DMP/inv_mpu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/DMP/inv_mpu_dmp_motion_driver.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/DMP/inv_mpu_dmp_motion_driver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/ENCODER/encoder.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/ENCODER/encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/EXTI/myexti.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/EXTI/myexti.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/IIC/IOI2C.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/IIC/IOI2C.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/KEY/key.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/KEY/key.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/LED/LED.C" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/LED/LED.H" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/MOTOR_PWM/pwm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/MOTOR_PWM/pwm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/MPU6050/MPU6050.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/MPU6050/mpu6050.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/USART1/usart1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/USART1/usart1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/USART3/usart3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/Mbot_HARDWARE/USART3/usart3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/ExtDll.iex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/MBOT.axf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/MBOT.axf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/MBOT.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/MBOT.build_log.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/MBOT.hex" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/MBOT.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/MBOT.htm" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/MBOT.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/MBOT.lnp" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/MBOT.lnp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/MBOT.sct" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/MBOT.sct" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/MBOT_MBOT.dep" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/MBOT_MBOT.dep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/adc.crf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/adc.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/adc.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/adc.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/adc.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/adc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/control.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/control.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/control.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/core_cm3.crf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/core_cm3.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/core_cm3.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/core_cm3.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/core_cm3.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/core_cm3.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/delay.crf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/delay.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/delay.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/delay.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/delay.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/delay.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/encoder.crf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/encoder.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/encoder.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/encoder.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/encoder.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/encoder.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/exti.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/exti.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/exti.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/inv_mpu.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/inv_mpu.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/inv_mpu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/inv_mpu_dmp_motion_driver.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/inv_mpu_dmp_motion_driver.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/inv_mpu_dmp_motion_driver.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/ioi2c.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/ioi2c.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/ioi2c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/key.crf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/key.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/key.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/key.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/key.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/key.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/led.crf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/led.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/led.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/led.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/led.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/led.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/mbot.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/mbot.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/mbot.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/mbotlinuxusart.crf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/mbotlinuxusart.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/mbotlinuxusart.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/mbotlinuxusart.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/mbotlinuxusart.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/mbotlinuxusart.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/misc.crf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/misc.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/misc.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/misc.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/misc.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/misc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/motor.crf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/motor.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/motor.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/motor.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/motor.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/motor.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/mpu6050.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/mpu6050.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/mpu6050.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/myexti.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/myexti.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/myexti.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/pid.crf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/pid.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/pid.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/pid.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/pid.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/pid.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/pwm.crf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/pwm.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/pwm.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/pwm.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/pwm.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/pwm.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/show.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/show.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/show.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/startup_stm32f10x_md.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/startup_stm32f10x_md.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/startup_stm32f10x_md.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/startup_stm32f10x_md.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_adc.crf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_adc.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_adc.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_adc.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_adc.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_adc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_exti.crf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_exti.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_exti.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_exti.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_exti.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_exti.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_gpio.crf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_gpio.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_gpio.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_gpio.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_gpio.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_gpio.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_i2c.crf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_i2c.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_i2c.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_i2c.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_i2c.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_i2c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_it.crf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_it.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_it.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_it.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_it.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_it.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_rcc.crf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_rcc.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_rcc.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_rcc.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_rcc.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_rcc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_tim.crf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_tim.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_tim.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_tim.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_tim.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_tim.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_usart.crf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_usart.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_usart.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_usart.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_usart.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/stm32f10x_usart.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/sys.crf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/sys.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/sys.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/sys.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/sys.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/sys.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/system_stm32f10x.crf" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/system_stm32f10x.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/system_stm32f10x.d" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/system_stm32f10x.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/system_stm32f10x.o" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/OBJ/system_stm32f10x.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/usart1.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/usart1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/usart1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/usart3.crf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/usart3.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/OBJ/usart3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/SYSTEM/delay/delay.c" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/SYSTEM/delay/delay.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/SYSTEM/delay/delay.h" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/SYSTEM/delay/delay.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/SYSTEM/sys/sys.c" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/SYSTEM/sys/sys.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/SYSTEM/sys/sys.h" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/SYSTEM/sys/sys.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/USER/JLinkSettings.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/USER/MBOT.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/USER/MBOT.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/USER/MBOT.uvguix.zhaokexue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/USER/MBOT.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/USER/MBOT.uvoptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/USER/MBOT.uvprojx" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/USER/MBOT.uvprojx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/USER/startup_stm32f10x_md.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/USER/stm32f10x_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/USER/stm32f10x_it.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/mbot/CONTROL/control.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/mbot/CONTROL/control.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/mbot/PID/pid.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/mbot/PID/pid.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/mbot/motor/motor.c" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/mbot/motor/motor.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/mbot/motor/motor.h" beforeDir="false" afterPath="$PROJECT_DIR$/输入捕获法/mbot/motor/motor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/mbot/show/show.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/mbot/show/show.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/mbot/usart/mbotLinuxUsart.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/输入捕获法/mbot/usart/mbotLinuxUsart.h" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/外部中断法" />
+  </component>
+  <component name="ProjectId" id="2N3EGoSMqk1t4dCwZvYrODa9A28" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "CMakeSettings"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <created>1678884277603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678884277603</updated>
+      <workItem from="1678884277603" duration="11000" />
+    </task>
+    <servers />
+  </component>
+</project>

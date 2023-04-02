@@ -1,0 +1,30 @@
+
+T4290 009:295 SEGGER J-Link V4.96d Log File (0000ms, 0031ms total)
+T4290 009:295 DLL Compiled: Jan 29 2015 11:45:37 (0000ms, 0031ms total)
+T4290 009:295 Logging started @ 2023-01-29 23:59 (0000ms, 0031ms total)
+T4290 009:295 JLINK_SetWarnOutHandler(...) (0000ms, 0031ms total)
+T4290 009:295 JLINK_OpenEx(...)
+  ***** Error: Can not connect to J-Link via USB.  returns "Can not connect to J-Link via USB." (0001ms, 0032ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T4290 009:296 
+  ***** Error: Can not connect to J-Link via USB.JLINK_EMU_SelectIP()  returns 0xFFFFFFFF (0340ms, 0372ms total)
+T4290 011:827 JLINK_IsOpen()  returns 0x00 (0000ms, 0372ms total)
+T4290 011:827 JLINK_EMU_GetList(InterfaceMask = 0x00000001, MaxInfos = 0x00000004)   returns 0x00 (0000ms, 0372ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T4290 011:828 
+  ***** Error: Can not connect to J-Link via USB.JLINK_EMU_SelectIP()  returns 0xFFFFFFFF (0338ms, 0711ms total)
+T4290 021:571 JLINK_IsOpen()  returns 0x00 (0000ms, 0711ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T4290 021:571 
+  ***** Error: Can not connect to J-Link via USB.JLINK_IsOpen()  returns 0x00 (0000ms, 0712ms total)
+T4290 022:276 JLINK_EMU_GetList(InterfaceMask = 0x00000001, MaxInfos = 0x00000004)   returns 0x00 (0000ms, 0712ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T4290 022:276 
+  ***** Error: Can not connect to J-Link via USB.JLINK_EMU_SelectIP()  returns 0xFFFFFFFF (0339ms, 1052ms total)
+T4290 028:296 JLINK_Close() (0000ms, 1052ms total)
+T4290 028:296  (0000ms, 1052ms total)
+T4290 028:296 Closed (0000ms, 1052ms total)

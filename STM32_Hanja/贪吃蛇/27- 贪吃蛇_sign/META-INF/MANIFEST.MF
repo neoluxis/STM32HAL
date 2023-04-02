@@ -1,0 +1,604 @@
+Manifest-Version: 1.0
+Built-By: Generated-by-ADT
+Created-By: Android Gradle 3.5.0
+
+Name: 27- 贪吃蛇/DebugConfig/Target_1_STM32F103C6_1.0.0.dbgconf
+SHA1-Digest: G/Qf1av05qfa/8GnPJ/ND1+YquM=
+
+Name: 27- 贪吃蛇/DebugConfig/Target_1_STM32F103C8_1.0.0.dbgconf
+SHA1-Digest: G/Qf1av05qfa/8GnPJ/ND1+YquM=
+
+Name: 27- 贪吃蛇/Hardwae/AD.c
+SHA1-Digest: jkywOThUy+EDNho3rUcYAxrt0WA=
+
+Name: 27- 贪吃蛇/Hardwae/AD.h
+SHA1-Digest: RcpAk94QG3QM/r3O+0pUPZkCYoU=
+
+Name: 27- 贪吃蛇/Hardwae/Key.c
+SHA1-Digest: LmB69d5hD7RGNUL6kMBeExi90nw=
+
+Name: 27- 贪吃蛇/Hardwae/Key.h
+SHA1-Digest: luGKfNX/KO7y+ml+CBMBbqlXvC0=
+
+Name: 27- 贪吃蛇/Hardwae/LED.c
+SHA1-Digest: FxETa7Ej0R1qht/os56HMHCWRX4=
+
+Name: 27- 贪吃蛇/Hardwae/LED.h
+SHA1-Digest: esLLxCs97q4KEHoXD4wT+Hn9pgE=
+
+Name: 27- 贪吃蛇/Hardwae/OLED.c
+SHA1-Digest: Jtz1MY/wnQmboelwqYxljlS//98=
+
+Name: 27- 贪吃蛇/Hardwae/OLED.h
+SHA1-Digest: DYFI023wXA121xiZcppT+18yuX4=
+
+Name: 27- 贪吃蛇/Hardwae/bmp.h
+SHA1-Digest: LK5/cAzTX7d4VXbDIVSvk0+G7cM=
+
+Name: 27- 贪吃蛇/Hardwae/oledfont.h
+SHA1-Digest: F5KgvBQcQAIIC920zMX2q9p9xxA=
+
+Name: 27- 贪吃蛇/Hardwae/snake.c
+SHA1-Digest: PqHmGUFbYpRsxVZnEq5YT3W1HPo=
+
+Name: 27- 贪吃蛇/Hardwae/snake.h
+SHA1-Digest: 2A3h7gtMfTVy9o5kCFZig5gtn5Q=
+
+Name: 27- 贪吃蛇/Hardwae/stmflash.c
+SHA1-Digest: dlc/Ns0xCRt6ef8E7mprWMVmjpc=
+
+Name: 27- 贪吃蛇/Hardwae/stmflash.h
+SHA1-Digest: ETLEmltU2NmbXcnlJPjKxHeDENs=
+
+Name: 27- 贪吃蛇/JLinkLog.txt
+SHA1-Digest: ETodFk02EnfMLg6SsjvagCeefkU=
+
+Name: 27- 贪吃蛇/JLinkSettings.ini
+SHA1-Digest: m7gLkADwddZZ7Dp8BWx8arQfBG4=
+
+Name: 27- 贪吃蛇/Library/misc.c
+SHA1-Digest: yZ0RyglLRT1F6fxqoR/+pWGGGjg=
+
+Name: 27- 贪吃蛇/Library/misc.h
+SHA1-Digest: xJiMACI2nKl6+qiczKVFP4j3TT4=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_adc.c
+SHA1-Digest: C369zq9vWQLUW3roJh8ZcY8HCD4=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_adc.h
+SHA1-Digest: GD6AtUpqtL/FgmlaxCrHkR+RDoc=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_bkp.c
+SHA1-Digest: m1HBrjxjSkevC2Lgv00f6K4kHg8=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_bkp.h
+SHA1-Digest: eHl2di5Nr288N96DBCV8/kz40MY=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_can.c
+SHA1-Digest: AnwhEfg3oaLJvg7BTZmaam1exK4=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_can.h
+SHA1-Digest: wnPG8KLC6Eb5Lt49UE/mPN5cxNI=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_cec.c
+SHA1-Digest: a3jcaWGZeAVg3fzAlqHQ7IB9Qhs=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_cec.h
+SHA1-Digest: fCqJhV+MXo0JwBG+zXRiK23Se8k=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_crc.c
+SHA1-Digest: sCXxiQ+ccfnAtz1EolANFlFc6ak=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_crc.h
+SHA1-Digest: uf/nwilViPoP5ElV/Qm4nHfBZ7w=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_dac.c
+SHA1-Digest: 7bAcdyb2PLChrSd3CCEp8B7C+no=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_dac.h
+SHA1-Digest: jgHUy2U/nWw7wA0f+5BZeH0p7mI=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_dbgmcu.c
+SHA1-Digest: 3BgUDRainkEUlhjLclhIfCizLuc=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_dbgmcu.h
+SHA1-Digest: jWuGc4z8FcU6QdsJhgpt1dje3kU=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_dma.c
+SHA1-Digest: py53fwsETxT8LXnQJpw7c6LK8MQ=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_dma.h
+SHA1-Digest: zfJOQH9cdwBg+t/CUUal/uw4Nhk=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_exti.c
+SHA1-Digest: Tnb/+YB1llscl+fM/GdqH4m7mrU=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_exti.h
+SHA1-Digest: 5S0jl1vodefIr7LA4yUWtsjoMg8=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_flash.c
+SHA1-Digest: RF47OI6JtImC4tM/IPAITkmZ+r4=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_flash.h
+SHA1-Digest: PjTQqiXuEYgXQDwlC9R7TgFzsQw=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_fsmc.c
+SHA1-Digest: s6l0xEWGG7PfQMHu5dgIGZwRtxg=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_fsmc.h
+SHA1-Digest: R+Uvod024CyEBtoa4vgjqNoozak=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_gpio.c
+SHA1-Digest: bzDbgJrqmjQv/kZMcQ89UnHGzD8=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_gpio.h
+SHA1-Digest: cMr+GaOb6aZBsuWHOhGpcU71Oj8=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_i2c.c
+SHA1-Digest: vtb/Y/07sgucDZrg+DByoLrEIg4=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_i2c.h
+SHA1-Digest: HdiccyInwcYyuSDOQIaFyAkXIpU=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_iwdg.c
+SHA1-Digest: 9W0z547EClS/KkPp9hTrgUjh06Q=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_iwdg.h
+SHA1-Digest: lZBJCVfPIBovpnlNJoV+NZ9Goyk=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_pwr.c
+SHA1-Digest: ZCy9YE26unYyfjO9+qciQAWQvDM=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_pwr.h
+SHA1-Digest: fJ6Wa9Ht+YH+4n2IfjXgL2EyYZ8=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_rcc.c
+SHA1-Digest: r5thDGUFUl7vlzBWX768/FbOKVw=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_rcc.h
+SHA1-Digest: mYaHyL0Jo2HJ9Iqqe2HeW8YYsGE=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_rtc.c
+SHA1-Digest: GUl7sxJah0O3f6hTzyvH+LNdYfQ=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_rtc.h
+SHA1-Digest: DgMeyvDTwRrceRyCqTNnzP7PI4o=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_sdio.c
+SHA1-Digest: MaOEd0clFeD7szBouvTcombjgjY=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_sdio.h
+SHA1-Digest: +ka6ePiHMBIv2kHxZvhz8zxTknE=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_spi.c
+SHA1-Digest: Z1O482EQYBYP/nCjiUKEucL094I=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_spi.h
+SHA1-Digest: rhfAHhUf7k6Nq1HAoSf7jcdM4tE=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_tim.c
+SHA1-Digest: iGjeuBL+Adr+sgPP8ITRxR7Un5o=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_tim.h
+SHA1-Digest: brGtr0FeQc41kcQm6E6lxmbipH8=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_usart.c
+SHA1-Digest: t/Y4PzhwN1E9dhPKhjq6++ibYpk=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_usart.h
+SHA1-Digest: eYC1Jhw5kXRIOXz8w0JAKcbHNtc=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_wwdg.c
+SHA1-Digest: 2HnT4ndegPsMSCAczPtbQBzHOc8=
+
+Name: 27- 贪吃蛇/Library/stm32f10x_wwdg.h
+SHA1-Digest: 4ey84e8J0b3q9cvbUDiAE3IbSfY=
+
+Name: 27- 贪吃蛇/Listings/Project.map
+SHA1-Digest: OETmbfgoZs9kt35DlSuKWmahdVU=
+
+Name: 27- 贪吃蛇/Listings/startup_stm32f10x_md.lst
+SHA1-Digest: PgyDD5yLRU/lkg6v3dOf6oY4/9E=
+
+Name: 27- 贪吃蛇/Objects/Project.axf
+SHA1-Digest: 4e2FBmknllg/rtKvAMONqI7UR4Q=
+
+Name: 27- 贪吃蛇/Objects/Project.build_log.htm
+SHA1-Digest: hMNyzqOkitWem3Bs+8P7BuhZ5SI=
+
+Name: 27- 贪吃蛇/Objects/Project.htm
+SHA1-Digest: 29OH6IgucB4ISjAFwAF+mS/kuV0=
+
+Name: 27- 贪吃蛇/Objects/Project.lnp
+SHA1-Digest: qS7tB/QgkfW9rhNTLk9avx6IJOo=
+
+Name: 27- 贪吃蛇/Objects/Project.sct
+SHA1-Digest: W5uN/5U38IBczKxn5/BydZO7VvA=
+
+Name: 27- 贪吃蛇/Objects/ad.crf
+SHA1-Digest: jWobrfVnBGcdkFgTdlxtdfrsCfg=
+
+Name: 27- 贪吃蛇/Objects/ad.d
+SHA1-Digest: LYYUZIYBBQjk+s/AhILFdYrTBXM=
+
+Name: 27- 贪吃蛇/Objects/ad.o
+SHA1-Digest: q0qECF+jdwEG/LJEOsC1uM9jzJU=
+
+Name: 27- 贪吃蛇/Objects/core_cm3.crf
+SHA1-Digest: 7SL9LT4R5hO5CP8Y8mRanfgTXFo=
+
+Name: 27- 贪吃蛇/Objects/core_cm3.d
+SHA1-Digest: 0V/AZu4A4Ovdl40zRjWxB0K+ijw=
+
+Name: 27- 贪吃蛇/Objects/core_cm3.o
+SHA1-Digest: yhnVRECWlgpOi+z6PiAJw2NHCQk=
+
+Name: 27- 贪吃蛇/Objects/delay.crf
+SHA1-Digest: 1d65hYaFatS6ii4oa7E8Iv92t30=
+
+Name: 27- 贪吃蛇/Objects/delay.d
+SHA1-Digest: docahcIvKodIuBsIYUACmS6FK/4=
+
+Name: 27- 贪吃蛇/Objects/delay.o
+SHA1-Digest: E9e02femXSWpv8h1se2AHRh1o7g=
+
+Name: 27- 贪吃蛇/Objects/key.crf
+SHA1-Digest: +xfGgJn6k0eRqlRBXYjOVU4J8a4=
+
+Name: 27- 贪吃蛇/Objects/key.d
+SHA1-Digest: wL5RKcbiwfImueqxcqI/jELv5X4=
+
+Name: 27- 贪吃蛇/Objects/key.o
+SHA1-Digest: 6oMRPmG4Cdmw7dI+HUXFFYkt8AA=
+
+Name: 27- 贪吃蛇/Objects/led.crf
+SHA1-Digest: /QzcxP8GowW9E0EgOBJE88+ctnI=
+
+Name: 27- 贪吃蛇/Objects/led.d
+SHA1-Digest: XIFM1z+PvRyjo2TdUUhNVkyMsEA=
+
+Name: 27- 贪吃蛇/Objects/led.o
+SHA1-Digest: aGFoQCFmoOs+ZBQmlBApWxd4y/k=
+
+Name: 27- 贪吃蛇/Objects/main.crf
+SHA1-Digest: O7TkjQOFwpf/oWthr86CWbdKRHw=
+
+Name: 27- 贪吃蛇/Objects/main.d
+SHA1-Digest: S+G/gbSaPMwUL2i3t6oPPHgmYtg=
+
+Name: 27- 贪吃蛇/Objects/main.o
+SHA1-Digest: 7/U+aEGWz1yh5lUGObDl4zMS7JY=
+
+Name: 27- 贪吃蛇/Objects/misc.crf
+SHA1-Digest: feehyGO336jje37JU+/5eg9pxjs=
+
+Name: 27- 贪吃蛇/Objects/misc.d
+SHA1-Digest: 8JmPd9JAWIjvKLuS3NZpaogEEL4=
+
+Name: 27- 贪吃蛇/Objects/misc.o
+SHA1-Digest: 53yCfuoz4w4ocZA7XWSmHbZm/Dg=
+
+Name: 27- 贪吃蛇/Objects/oled.crf
+SHA1-Digest: 4fgIPj04slsdqALZaATlqXXL3Jg=
+
+Name: 27- 贪吃蛇/Objects/oled.d
+SHA1-Digest: faD5Q9bDOuIPtrQEQESA6LG1cYs=
+
+Name: 27- 贪吃蛇/Objects/oled.o
+SHA1-Digest: MpEfkJMSkUc4ukgx5Eg2buhU0Es=
+
+Name: 27- 贪吃蛇/Objects/project_Target 1.dep
+SHA1-Digest: nTx5z4Zc47l2Hb1ZkQJsqp1oRBc=
+
+Name: 27- 贪吃蛇/Objects/snake.crf
+SHA1-Digest: oMSGh9DdiwTgAZCkg9rAtK7Pq1Q=
+
+Name: 27- 贪吃蛇/Objects/snake.d
+SHA1-Digest: vnAYj+lrA410ZJhWcN5zJR7cCsw=
+
+Name: 27- 贪吃蛇/Objects/snake.o
+SHA1-Digest: sOcGqnT0F5E+GMw8JJJzNHdSq7M=
+
+Name: 27- 贪吃蛇/Objects/startup_stm32f10x_md.d
+SHA1-Digest: 8okhuwm70uVZjryKkPFBZamPcdY=
+
+Name: 27- 贪吃蛇/Objects/startup_stm32f10x_md.o
+SHA1-Digest: bgH3kJg0c5z+uD0gLBpimTqY4uI=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_adc.crf
+SHA1-Digest: 88vKqC+09+ruCyzNavzhq2Ims/0=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_adc.d
+SHA1-Digest: WB2REQoy89deufKMxJ1HLA5Xhug=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_adc.o
+SHA1-Digest: 3//Of2unbyrY27T4WvloRZQEegM=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_bkp.crf
+SHA1-Digest: PgwrfxPbenzeTkkW8yJ+CwDGKys=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_bkp.d
+SHA1-Digest: FNt9AM6ta/lZjA8+S+FVKcF94dU=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_bkp.o
+SHA1-Digest: ooPQE97zromcg3GE2RO7BAbFFf8=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_can.crf
+SHA1-Digest: VOajDH0fLSbg/gdt1Nw+7LUeUa0=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_can.d
+SHA1-Digest: kKihLhf2aJdCnSexvoz89iROJI8=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_can.o
+SHA1-Digest: jBJa3jMGBlB2u5KnwEVSSV5GqBc=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_cec.crf
+SHA1-Digest: Q8vY2vDPdzftCUja1+qRxqit3IA=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_cec.d
+SHA1-Digest: 2r5t7zJpMMIQXEnEjf6InN4oOH4=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_cec.o
+SHA1-Digest: Z8+qH0kGjrT5ygGWxow//g4mqZ0=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_crc.crf
+SHA1-Digest: w8t+NnupzxSxgNXU98CwSwbgvSs=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_crc.d
+SHA1-Digest: EGOI/veRKZ5G0nc5ciKu8zeJe4s=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_crc.o
+SHA1-Digest: CePYdUUkz4gKtGXhtuTdy1DsP4s=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_dac.crf
+SHA1-Digest: RnNfmkXENOPv7u/PlOshuHWqCwA=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_dac.d
+SHA1-Digest: OhhAOceN9pbm9Cghdz27+OlOmkI=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_dac.o
+SHA1-Digest: ew3WSLX5p5AnCRY2+VUoSSVYFUE=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_dbgmcu.crf
+SHA1-Digest: EC9iLHbp+nioYX6d2WGsJHrcnG0=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_dbgmcu.d
+SHA1-Digest: dBJtG+WorcUEEuKxuBTNgMKf5iY=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_dbgmcu.o
+SHA1-Digest: ikustXXCibW+6CFe0fOnBm4vZz0=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_dma.crf
+SHA1-Digest: Qp1REH1xaJlw8q+Y/kZHUwUfPww=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_dma.d
+SHA1-Digest: TYuup36L9DzOnJZbg1+BB72+OQg=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_dma.o
+SHA1-Digest: p2iiEahSE6z9sUGf/l1fplpuNos=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_exti.crf
+SHA1-Digest: g0ey0U9x5ZJ4GJJ3pIK9Jg1yVcI=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_exti.d
+SHA1-Digest: ZS+YoOp7GZBeSfQoRMwL7DPwdcM=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_exti.o
+SHA1-Digest: Ius8BPKZiPu1w0paFxRZj0I4bhs=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_flash.crf
+SHA1-Digest: YOeyDvo7uKM00Jb39QlSJSpxSpw=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_flash.d
+SHA1-Digest: 2PYcgYLZgYk6GRAWCFha47R6PCY=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_flash.o
+SHA1-Digest: a2mZaUvxEnUzS+ErtsSx6Bkg9O0=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_fsmc.crf
+SHA1-Digest: CvEQ/j5ZR0y9Ji8qujGzXb35J8s=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_fsmc.d
+SHA1-Digest: Wxuywv5mJehyQhovrQSjiln1oGM=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_fsmc.o
+SHA1-Digest: Y40MOp3cZfHYXBLd5dNmM3rVq88=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_gpio.crf
+SHA1-Digest: I26NDUfD7tWS5as50lXVKyCIG2I=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_gpio.d
+SHA1-Digest: EdCo+9vnPTJ37sMjk3d8JILKjAc=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_gpio.o
+SHA1-Digest: Dj8p8chi+bpG9gCqMLsMUZJGpd0=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_i2c.crf
+SHA1-Digest: lVZTnXliyYVnM2BZawW3cJ5/SLg=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_i2c.d
+SHA1-Digest: fUDRQcl4rElxjlHiYBa7U+Wwj/g=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_i2c.o
+SHA1-Digest: T+dbxVeP+HfD9k3gxJ8x0bm16zA=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_it.crf
+SHA1-Digest: uRAqalzchLFGJHl9brZ+K7R+IOs=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_it.d
+SHA1-Digest: SwHd6o57gTNmBBpHWJubwkFZemU=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_it.o
+SHA1-Digest: pThjRGYJMD5byGZckswrbI1wXTA=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_iwdg.crf
+SHA1-Digest: WkLsz1kBtlFA3aIrQ/9uuHonQqA=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_iwdg.d
+SHA1-Digest: 62Rv+EDq9cz677E7N1IuDYWN1tg=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_iwdg.o
+SHA1-Digest: xxRTDHBXrc5l6N6d/VjfmwSrfjA=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_pwr.crf
+SHA1-Digest: i+1ZPa1go5vCET60a014xzpJuDU=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_pwr.d
+SHA1-Digest: Ri2ZgPYl6OE4T9Oyoj4FCTQ+X9g=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_pwr.o
+SHA1-Digest: hub0erODwEVUbknZzG6T/RG/jvE=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_rcc.crf
+SHA1-Digest: K3hUwsn8bqfsnOY7vakdxDOcn7A=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_rcc.d
+SHA1-Digest: 95djrgyhin27zN6P1MrR2AFVosw=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_rcc.o
+SHA1-Digest: oXkW2ZtI7tUO3vqjG2fPsdYM2po=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_rtc.crf
+SHA1-Digest: YlMGbDSzdeVP855ttdUZwp9f1BE=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_rtc.d
+SHA1-Digest: FCjap+JQnbTU0lhwzwvH+5ksMlc=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_rtc.o
+SHA1-Digest: oSUnhIa/L11EZCZfV2RDD3kHPvg=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_sdio.crf
+SHA1-Digest: 1qKvterOKp/Og0A+vqhgsTJfhAA=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_sdio.d
+SHA1-Digest: efuA6QpT39gM4oqiD1mSlvQ6qA8=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_sdio.o
+SHA1-Digest: uxgEWmhTOAWCm/+p5kEPPKAGrvU=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_spi.crf
+SHA1-Digest: myj/OpoPnZ7tXtHkrZiDeVa+fMw=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_spi.d
+SHA1-Digest: ZW1Wdkd+MSdShWKzQus9tJvJ4jo=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_spi.o
+SHA1-Digest: JD/lIun5RPbe+X7OOd7OSQsP4dA=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_tim.crf
+SHA1-Digest: l2Dz4V1MUVKbbL4tyI0P6DMJDXg=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_tim.d
+SHA1-Digest: vpIvZsMw1GZOfbcrDHlhK0Odrd0=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_tim.o
+SHA1-Digest: qz4Ft4vsOH3lhE0lbFbNMlZTKPw=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_usart.crf
+SHA1-Digest: Ufgvbf/08u5kaRYnJKjctxkufgc=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_usart.d
+SHA1-Digest: Q4ls/jmcDCGNmRnMqKcgkvBA3dg=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_usart.o
+SHA1-Digest: us7d4IDYmrpdo9PJdUifaeu+96s=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_wwdg.crf
+SHA1-Digest: 9ElGuqJUwbsk3pIoxRe1bQOr1t0=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_wwdg.d
+SHA1-Digest: eqhmfvjeR/wtPlM3/RR3+8tnPb8=
+
+Name: 27- 贪吃蛇/Objects/stm32f10x_wwdg.o
+SHA1-Digest: RVAnWJPsqVXRCKKW4t1aJp6JTl8=
+
+Name: 27- 贪吃蛇/Objects/stmflash.crf
+SHA1-Digest: cAM43rSIVOoHbJ1Fn1yJ73phaZo=
+
+Name: 27- 贪吃蛇/Objects/stmflash.d
+SHA1-Digest: xWZ1yn81S24zCpVS6ZYFXZmYtJg=
+
+Name: 27- 贪吃蛇/Objects/stmflash.o
+SHA1-Digest: 8YAAT46qHgGKSooQ0k3do+bU0ho=
+
+Name: 27- 贪吃蛇/Objects/system_stm32f10x.crf
+SHA1-Digest: sRgAzyY8wgLFLTo5GMUGHsLHpLA=
+
+Name: 27- 贪吃蛇/Objects/system_stm32f10x.d
+SHA1-Digest: tUOMEAnWmm8sHdBeicKSfLZ/FSE=
+
+Name: 27- 贪吃蛇/Objects/system_stm32f10x.o
+SHA1-Digest: iOhrfKuEAMDEVbH+nwfTFqu/P54=
+
+Name: 27- 贪吃蛇/Project.uvguix.Admin
+SHA1-Digest: ggAU+j5ZZZA1LyANdDFSv/cNB8I=
+
+Name: 27- 贪吃蛇/Start/core_cm3.c
+SHA1-Digest: rUw78KGO9MmgER/388Q5A2Afj2Y=
+
+Name: 27- 贪吃蛇/Start/core_cm3.h
+SHA1-Digest: s8EqrFQ8Qrit4PRIhTxPoYMHEJQ=
+
+Name: 27- 贪吃蛇/Start/startup_stm32f10x_cl.s
+SHA1-Digest: 5uJmrdloUtaNVcr9o+cp1ruRnYY=
+
+Name: 27- 贪吃蛇/Start/startup_stm32f10x_hd.s
+SHA1-Digest: 6TWqVt9ss247SGnPbtflcvDOt/I=
+
+Name: 27- 贪吃蛇/Start/startup_stm32f10x_hd_vl.s
+SHA1-Digest: j4xaqh38630cUfUyl6d14R2d40c=
+
+Name: 27- 贪吃蛇/Start/startup_stm32f10x_ld.s
+SHA1-Digest: lS3UIGNyX+Tb+MgJ5G1Hw/fKeJM=
+
+Name: 27- 贪吃蛇/Start/startup_stm32f10x_ld_vl.s
+SHA1-Digest: E3/F4p4LGHvlqcO26dkcPGRmq3A=
+
+Name: 27- 贪吃蛇/Start/startup_stm32f10x_md.s
+SHA1-Digest: sXCfrnfxis6ea1fiIr3hmZTbJJA=
+
+Name: 27- 贪吃蛇/Start/startup_stm32f10x_md_vl.s
+SHA1-Digest: D1onyv6EBRE8OE0QrDjyICdpVr8=
+
+Name: 27- 贪吃蛇/Start/startup_stm32f10x_xl.s
+SHA1-Digest: 6/NG7mOPEgZ3LmfO8fXqLORGmyk=
+
+Name: 27- 贪吃蛇/Start/stm32f10x.h
+SHA1-Digest: 3AiXZ+YUK3KobehEBueGHceyLjU=
+
+Name: 27- 贪吃蛇/Start/system_stm32f10x.c
+SHA1-Digest: oJ9ghrfOpvppgloNTqQyaXhjHAU=
+
+Name: 27- 贪吃蛇/Start/system_stm32f10x.h
+SHA1-Digest: bbyZ7FwWR2JFxkN5Roc3K+dn2Xo=
+
+Name: 27- 贪吃蛇/System/Delay.c
+SHA1-Digest: Sow7czhHRaFPXcDBDyjf2rjm8K4=
+
+Name: 27- 贪吃蛇/System/Delay.h
+SHA1-Digest: 9Tj0bFacLiYyNahCzxha4s2w924=
+
+Name: 27- 贪吃蛇/User/main.c
+SHA1-Digest: axE6oDzJC/0NwjGQ0xwquNLcxQA=
+
+Name: 27- 贪吃蛇/User/stm32f10x_conf.h
+SHA1-Digest: 7E+GrPaoGorihYMTsxFh6dQqPRY=
+
+Name: 27- 贪吃蛇/User/stm32f10x_it.c
+SHA1-Digest: FDBCjlqvbWAhH/Pneq5KUrfoWSA=
+
+Name: 27- 贪吃蛇/User/stm32f10x_it.h
+SHA1-Digest: QKCH07YQ13YgppZr2DuyYwlZM8k=
+
+Name: 27- 贪吃蛇/keilkill.bat
+SHA1-Digest: BdhWefKZq3Tr1od/W6KhbLpjBeU=
+
+Name: 27- 贪吃蛇/project.uvguix.咖啡
+SHA1-Digest: wLVKt6fExSdwRg2q8KtmCkLHZnk=
+
+Name: 27- 贪吃蛇/project.uvoptx
+SHA1-Digest: dDtbdyh16tjXp1qMk9dlee86luQ=
+
+Name: 27- 贪吃蛇/project.uvprojx
+SHA1-Digest: YpAmc+EsnSrT+KZw9eb9QNtCqdw=
+

@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Neolux Lee, Neoluxso, LIC=PE7DL-06TBT-EVG1R-KEKA0-FE8B8-V5HFT
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+E:\Administrator\OneDrive - likangfeng\Programming\STM32_Hanja\Ã∞≥‘…ﬂ\SNAKE\MDK-ARM\Project.uvproj
+Project File Date:  03/03/2023
+
+<h2>Output:</h2>
+Build target 'TETRIS'
+compiling Snake.c...
+..\USER\Snake.c(52): warning:  #177-D: variable "j" was declared but never referenced
+        int i,j;
+..\USER\Snake.c(190): warning:  #167-D: argument of type "int *" is incompatible with parameter of type "unsigned int *"
+                                ret=GAME_SnakeMove(gamemap,&SnokeHeadNode,event,&GameScore);    
+..\USER\Snake.c(163): warning:  #177-D: variable "times" was declared but never referenced
+        int times = 0;
+..\USER\LED.h(7): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();
+..\USER\LED.h(8): warning:  #1295-D: Deprecated declaration LED0_Toggle - give arg types
+  void LED0_Toggle();
+..\USER\Snake.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=7408 RO-data=1360 RW-data=92 ZI-data=12356  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin --output "E:\Administrator\OneDrive - likangfeng\Programming\STM32_Hanja\Ã∞≥‘…ﬂ\SNAKE\MDK-ARM\Obj\test.bin" "E:\Administrator\OneDrive - likangfeng\Programming\STM32_Hanja\Ã∞≥‘…ﬂ\SNAKE\MDK-ARM\Obj\Project.axf"
+".\Obj\Project.axf" - 0 Error(s), 5 Warning(s).
+</pre>
+</body>
+</html>

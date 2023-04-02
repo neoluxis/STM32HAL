@@ -1,0 +1,98 @@
+cmake_minimum_required(VERSION 3.24)
+project(26__ C)
+
+set(CMAKE_C_STANDARD 11)
+
+include_directories(Hardwae)
+include_directories(Hardwae/bk)
+include_directories(Library)
+include_directories(Start)
+include_directories(System)
+include_directories(System/sys)
+include_directories(System/usart)
+include_directories(User)
+
+add_executable(26__
+        Hardwae/bk/OLED.c
+        Hardwae/bk/OLED.h
+        Hardwae/bk/OLED_Font.h
+        Hardwae/BSP_Config.c
+        Hardwae/BSP_Config.h
+        Hardwae/CRC.c
+        Hardwae/CRC.h
+        Hardwae/CSB_SR04.c
+        Hardwae/CSB_SR04.h
+        Hardwae/IC.c
+        Hardwae/IC.h
+        Hardwae/Key.c
+        Hardwae/Key.h
+        Hardwae/LED.c
+        Hardwae/LED.h
+        Hardwae/OLED.c
+        Hardwae/OLED.h
+        Hardwae/oledfont.h
+        Hardwae/PWM.c
+        Hardwae/PWM.h
+        Hardwae/Serial.c
+        Hardwae/Serial.h
+        Library/misc.c
+        Library/misc.h
+        Library/stm32f10x_adc.c
+        Library/stm32f10x_adc.h
+        Library/stm32f10x_bkp.c
+        Library/stm32f10x_bkp.h
+        Library/stm32f10x_can.c
+        Library/stm32f10x_can.h
+        Library/stm32f10x_cec.c
+        Library/stm32f10x_cec.h
+        Library/stm32f10x_crc.c
+        Library/stm32f10x_crc.h
+        Library/stm32f10x_dac.c
+        Library/stm32f10x_dac.h
+        Library/stm32f10x_dbgmcu.c
+        Library/stm32f10x_dbgmcu.h
+        Library/stm32f10x_dma.c
+        Library/stm32f10x_dma.h
+        Library/stm32f10x_exti.c
+        Library/stm32f10x_exti.h
+        Library/stm32f10x_flash.c
+        Library/stm32f10x_flash.h
+        Library/stm32f10x_fsmc.c
+        Library/stm32f10x_fsmc.h
+        Library/stm32f10x_gpio.c
+        Library/stm32f10x_gpio.h
+        Library/stm32f10x_i2c.c
+        Library/stm32f10x_i2c.h
+        Library/stm32f10x_iwdg.c
+        Library/stm32f10x_iwdg.h
+        Library/stm32f10x_pwr.c
+        Library/stm32f10x_pwr.h
+        Library/stm32f10x_rcc.c
+        Library/stm32f10x_rcc.h
+        Library/stm32f10x_rtc.c
+        Library/stm32f10x_rtc.h
+        Library/stm32f10x_sdio.c
+        Library/stm32f10x_sdio.h
+        Library/stm32f10x_spi.c
+        Library/stm32f10x_spi.h
+        Library/stm32f10x_tim.c
+        Library/stm32f10x_tim.h
+        Library/stm32f10x_usart.c
+        Library/stm32f10x_usart.h
+        Library/stm32f10x_wwdg.c
+        Library/stm32f10x_wwdg.h
+        Start/core_cm3.c
+        Start/core_cm3.h
+        Start/stm32f10x.h
+        Start/system_stm32f10x.c
+        Start/system_stm32f10x.h
+        System/sys/sys.c
+        System/sys/sys.h
+        System/usart/usart.c
+        System/usart/usart.h
+        System/Delay.c
+        System/Delay.h
+        User/main.c
+        User/stm32f10x_conf.h
+        User/stm32f10x_it.c
+        User/stm32f10x_it.h)

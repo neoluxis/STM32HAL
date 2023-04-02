@@ -1,0 +1,9 @@
+.\objects\mian.o: mian.c
+.\objects\mian.o: ..\ss\stm32f10x.h
+.\objects\mian.o: .\CORE\core_cm3.h
+.\objects\mian.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mian.o: ..\ss\system_stm32f10x.h
+.\objects\mian.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\mian.o: .\HARDWARE\LCD\lcd.h
+.\objects\mian.o: .\SYSTEM\sys\sys.h
+.\objects\mian.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
