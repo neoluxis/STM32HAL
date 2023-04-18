@@ -1,3 +1,3 @@
-.\objects\crc.o: Hardwae\CRC.c
-.\objects\crc.o: Hardwae\CRC.H
-.\objects\crc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ac16f2018d43b67abacc9dd5d91167379481a7d2ce81dbbaa16524db9909ba9
+size 126

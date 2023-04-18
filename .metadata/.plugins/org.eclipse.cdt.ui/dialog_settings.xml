@@ -1,21 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<section name="Workbench">
-	<item key="LastUsedSourceTemplate" value="Default C source template"/>
-	<item key="LastUsedHeaderTemplate" value="Default C header template"/>
-	<section name="completion_proposal_size">
-	</section>
-	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
-	</section>
-	<section name="CResourceRenameRefactoringInputPage">
-		<item key="updateReferences" value="true"/>
-	</section>
-	<section name="OptionalMessageDialog.hide.">
-		<item key="askReindex.detail" value="0"/>
-	</section>
-	<section name="NewClassWizardPage">
-	</section>
-	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration.internal">
-		<item key="size.width" value="1314"/>
-		<item key="size.height" value="180"/>
-	</section>
-</section>
+version https://git-lfs.github.com/spec/v1
+oid sha256:a8a0273c7ff0d31dfee7ea2bd07cdfe05762b1b9c43b55577c9652ec9be70402
+size 823
