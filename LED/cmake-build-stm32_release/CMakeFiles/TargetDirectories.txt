@@ -1,3 +1,0 @@
-E:/LearningProjects/STM32/LED/cmake-build-stm32_release/CMakeFiles/LED.elf.dir
-E:/LearningProjects/STM32/LED/cmake-build-stm32_release/CMakeFiles/edit_cache.dir
-E:/LearningProjects/STM32/LED/cmake-build-stm32_release/CMakeFiles/rebuild_cache.dir

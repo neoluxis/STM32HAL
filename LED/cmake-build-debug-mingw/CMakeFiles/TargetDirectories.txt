@@ -1,3 +1,0 @@
-E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/CMakeFiles/LED.elf.dir
-E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/CMakeFiles/ALL_BUILD.dir
-E:/LearningProjects/STM32/LED/cmake-build-debug-mingw/CMakeFiles/ZERO_CHECK.dir
